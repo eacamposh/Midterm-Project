@@ -54,7 +54,8 @@
     .card{
         @extend %card-format;
         .card-title{
-            background-color: lightsalmon;
+            width: 100%;
+            background-color: rgb(185, 232, 240);
             padding: 1rem;
         }
     }
