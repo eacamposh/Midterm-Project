@@ -23,10 +23,9 @@
 }
 
 .header{
-    @extend %flex-format;
     .header-nav{
-        @extend %flex-format;
-        .nav-item{
+        .navbar-nav{
+            @extend %flex-format;
             list-style: none;
             .nav-link{
                 display: inline-block;

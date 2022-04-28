@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,600;1,400&family=Oswald:wght@200;400;500;600&display=swap");
-.header .header-nav, .header {
+.header .header-nav .navbar-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,16 +21,16 @@
   text-decoration: none;
 }
 
-.header .header-nav .nav-item {
+.header .header-nav .navbar-nav {
   list-style: none;
 }
-.header .header-nav .nav-item .nav-link {
+.header .header-nav .navbar-nav .nav-link {
   display: inline-block;
   padding: 0px 20px;
 }
-.header .header-nav .nav-item .nav-link a {
+.header .header-nav .navbar-nav .nav-link a {
   transition: all 0.3s ease 0s;
 }
-.header .header-nav .nav-item .nav-link a:hover {
+.header .header-nav .navbar-nav .nav-link a:hover {
   color: brown;
 }/*# sourceMappingURL=alex.css.map */
