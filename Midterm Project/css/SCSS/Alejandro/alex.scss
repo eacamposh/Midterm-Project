@@ -53,5 +53,9 @@
     @extend %flex-format;
     .card{
         @extend %card-format;
+        .card-title{
+            background-color: lightsalmon;
+            padding: 1rem;
+        }
     }
 }
