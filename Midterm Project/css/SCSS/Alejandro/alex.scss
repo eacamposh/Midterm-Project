@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,600;1,400&family=Oswald:wght@200;400;500;600&display=swap');
 
+%flex-format{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
 *{
     box-sizing: border-box;
     margin: 0%;
@@ -16,19 +23,19 @@
 }
 
 .header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-    .nav-item{
-        list-style: none;
-        .nav-link{
-            display: inline-block;
-            padding: 0px 20px;
-            a{
-                transition: all 0.3s ease 0s;
-                &:hover{
-                    color: brown;
+    @extend %flex-format;
+    .header-nav{
+        @extend %flex-format;
+        .nav-item{
+            list-style: none;
+            .nav-link{
+                display: inline-block;
+                padding: 0px 20px;
+                a{
+                    transition: all 0.3s ease 0s;
+                    &:hover{
+                        color: brown;
+                    }
                 }
             }
         }
