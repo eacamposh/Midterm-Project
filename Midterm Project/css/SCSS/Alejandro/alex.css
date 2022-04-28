@@ -6,25 +6,30 @@
   background-color: whitesmoke;
 }
 
-body {
+.nav-item, .nav-link, .logo {
   font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
 }
 
 .header {
-  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 65px;
-  width: 100vw;
-  padding: 0 10vw;
-}
-.header a {
-  text-decoration: none;
-  color: inherit;
-  text-transform: uppercase;
+  padding: 30px 10%;
 }
 .header .nav-item {
-  display: flex;
   list-style: none;
+}
+.header .nav-item .nav-link {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.header .nav-item .nav-link a {
+  transition: all 0.3s ease 0s;
+}
+.header .nav-item .nav-link a:hover {
+  color: brown;
 }/*# sourceMappingURL=alex.css.map */
