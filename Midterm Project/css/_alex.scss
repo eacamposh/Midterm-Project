@@ -42,9 +42,6 @@ body {
   grid-template-rows: (1fr, 2fr, 1fr);
   margin: auto;
   row-gap: 5px;
-  .menu-title{
-    @extend %menu-title-format
-  }
 }
 
 .nav-item,
@@ -76,6 +73,10 @@ body {
       }
     }
   }
+}
+
+.menu-title{
+  @extend %menu-title-format
 }
 
 .container {
