@@ -26,6 +26,13 @@
        column-gap: 5px;
 }
 
+.menu-title {
+  width: 100%;
+  background-color: rgb(185, 232, 240);
+  padding: 1rem;
+  text-align: center;
+}
+
 * {
   box-sizing: border-box;
   margin: 0%;
