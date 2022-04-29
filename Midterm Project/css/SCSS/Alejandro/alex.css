@@ -34,6 +34,7 @@ body {
   display: grid;
   grid-template-rows: 1fr, 2fr, 1fr;
   margin: auto;
+  row-gap: 5px;
 }
 
 .nav-item, .nav-link, .logo {
@@ -67,8 +68,13 @@ body {
   padding: 1rem;
   text-align: center;
 }
+.container .card .price {
+  text-align: right;
+  font-weight: 2rem;
+}
 
 .footer {
+  justify-content: end;
   text-align: center;
   font-size: 0.5rem;
 }/*# sourceMappingURL=alex.css.map */
