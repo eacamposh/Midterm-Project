@@ -9,8 +9,9 @@
 .container .card {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 10px;
   margin: 2px;
 }
 
@@ -58,4 +59,9 @@
   width: 100%;
   background-color: rgb(185, 232, 240);
   padding: 1rem;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.5rem;
 }/*# sourceMappingURL=alex.css.map */
