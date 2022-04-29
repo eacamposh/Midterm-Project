@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Cookie&display=swap');
+
+.site-title {
+  font-family: cookie, cursive;
+  font-size: 60px;
+  font-style: italic;
+  color: #000;
+  text-shadow: 0 0 4px #fff;
+  display: block;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.site-title a {
+  color: #222;
+  text-decoration: none;
+}
+
+.site-description {
+  font-size: 0.9375rem;
+  line-height: 2;
+}
+
+.main-header {
+  position: relative;
+  line-height: 4;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.site-content-one{
+ box-sizing: border-box;
+}
+
+/* .site-content-one-section{
+    background-color: rgba(0,0,0,0.28);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.content-section-title{
+    font-size: 75px;
+    line-height: 60px;
+    color: #fff;
+    font-family: "Berkshire Swash", Sans-serif;
+    text-align: center;
+}
