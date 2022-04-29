@@ -1,6 +1,6 @@
-@import url(./_alex.scss);
-@import url(./_eduardo.scss);
-@import url(./_victor.scss);
+@use './alex';
+@use './eduardo';
+@use './victor';
 
 *{
     box-sizing: border-box;
