@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Cookie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Cookie&family=Courgette&display=swap");
 
 .site-title {
   font-family: cookie, cursive;
@@ -30,27 +31,99 @@
   margin-bottom: 0;
 }
 
-.elementor-title-one {
-  color: rgb(255, 255, 255);
-  font-family: "Berkshire Swash", Sans-serif;
-  font-size: 103px;
-  font-weight: 900;
-  text-align: center;
-  background-color: none;
-  
-  
-}
-
-.elementor-background {
+.site-elementor-background {
   background-image: url(../images/bg-primary.jpg);
+  background-color: rgba(0, 0, 0, 0.28);
+  background-position: center center;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  width: 1951px;
-  height: 1229px;
-  padding-left: 200px;
-  padding-top: 300px;
-
+  background-size: cover;
+  background-color: transparent;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
+.img-frill {
+  position: relative;
+  background: none;
+/*   left: 940px;
+  top: -300px; */
+  align-items: top;
+  background-size: cover;
+}
 
+.img-fork {
+  position: relative;
+  background: none;
+/*   top: 100px;
+  left: 350px; */
+  background-size: cover;
+  vertical-align: middle;
+}
+.img-knife {
+  position: relative;
+  background: none;
+  vertical-align: middle;
+/*   top: 100px;
+  left: 1150px; */
+  background-size: cover;
+}
+
+/* .site-elementor-title {
+  position: relative;
+  color: #ffffff;
+  font-size: 45px;
+  letter-spacing: 0px;
+  text-shadow: 0px 0px 41px #000e14;
+  display: flex;
+  background: none;
+  background-size: cover;
+} */
+
+.elementor-title-one {
+  font-family: "Berkshire Swash", Sans-serif;
+  position: relative;
+  color: #ffffff;
+  font-size: 45px;
+  letter-spacing: 0px;
+  text-shadow: 0px 0px 41px #000e14;
+  display: flex;
+  background: none;
+  background-size: cover;
+  text-align: center;
+}
+
+.elementor-title-two {
+  background: none;
+  font-family: "Courgette", Sans-serif;
+  color: #ff770f;
+  position: relative;
+  text-align: center;
+/*   right: 500px;
+  top: 130px; */
+  background-size: cover;
+}
+
+.elementor-title-three {
+  font-family: sans-serif;
+  background: none;
+  font-size: 18px;
+  position: relative;
+  color: #ffffff;
+/*   right: 710px;
+  top: 220px; */
+  background-size: cover;
+}
+
+.elementor-title-four {
+  background: none;
+  font-family: "Courgette", Sans-serif;
+  color: #ff770f;
+  font-size: 32px;
+  font-weight: inherit;
+  position: relative;
+  text-align: center;
+/*   left: 720px;
+  top: -150px; */
+  margin: 0;
+  line-height: 1.4;
+  background-size: cover;
+}
