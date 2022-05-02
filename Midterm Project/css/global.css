@@ -88,11 +88,15 @@ body {
   padding: 1rem;
   text-align: center;
 }
+.container .card p {
+  background-color: rgba(245, 245, 245, 0);
+}
 .container .card .price {
   text-align: right;
   font-weight: 2rem;
   margin-left: auto;
   padding: 5px;
+  background-color: rgba(245, 245, 245, 0);
 }
 
 .footer {

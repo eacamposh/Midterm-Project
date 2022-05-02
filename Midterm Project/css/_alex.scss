@@ -93,11 +93,15 @@ body {
       padding: 1rem;
       text-align: center;
     }
+    p{
+      background-color: #f5f5f500;
+    }
     .price {
       text-align: right;
       font-weight: 2rem;
       margin-left: auto;
       padding: 5px;
+      background-color: #f5f5f500;
     }
   }
 }
