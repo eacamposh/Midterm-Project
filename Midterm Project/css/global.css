@@ -88,7 +88,7 @@ body {
   padding: 1rem;
   text-align: center;
 }
-.container .card p {
+.container .card p, .container .card div {
   background-color: rgba(245, 245, 245, 0);
 }
 .container .card .price {
