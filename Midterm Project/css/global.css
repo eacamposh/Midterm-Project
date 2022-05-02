@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
 .header .header-nav .navbar-nav {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
