@@ -486,6 +486,11 @@ h6 {
   text-shadow: black 0.1em 0.1em 0.2em;
 }
 
+.elementor-footer p {
+  text-align: center;
+  line-height: 1.8;
+}
+
 .site-content-background {
   background-image: url("../images/pizza_restaurant1.jpg");
   background-repeat: no-repeat;
