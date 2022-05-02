@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
-.site-content-background{
+.site-content-background {
 
-background-image:url('../images/pizza_restaurant1.jpg') ;
-background-repeat: no-repeat;
-//background-attachment: fixed;
-background-position: center;
-background-size: 100% ;
-width: 1951px ;
-height: 1229px;
-//padding-left: 150px;
-padding-left: 200px;
-padding-top: 300px;
+    background-image: url('../images/pizza_restaurant1.jpg');
+    background-repeat: no-repeat;
+    //background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    width: 1951px;
+    height: 1229px;
+    //padding-left: 150px;
+    padding-left: 200px;
+    padding-top: 300px;
 
 }
 
-.heading-background-title{
+.heading-background-title {
 
     color: #ffffff;
     font-size: 80px;
@@ -24,15 +24,47 @@ padding-top: 300px;
     text-shadow: 0px 0px 41px #000e14;
     display: flex;
     background: none;
-  
+
 }
 
-.paragraph-title-call{
-background: none;
-font-family: "Berkshire Swash", Sans-serif;
+.heading-background-title2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-shadow: 0px 0px 41px #000e14;
+    display: flex;
+    background: none;
 }
 
-.paragraph-title-call2{
+.heading-background-title3 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-shadow: 0px 0px 41px #000e14;
+    display: block;
+    background: none;
+    text-align: center;
+}
+
+.heading-background-title4 {
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-shadow: 0px 0px 41px #000e14;
+    display: block;
+    background: none;
+    text-align: center;
+    padding-top: 60px;
+}
+.paragraph-title-call {
+    background: none;
+    font-family: "Berkshire Swash", Sans-serif;
+}
+
+.paragraph-title-call2 {
     background: none;
     font-family: "Josefin Sans", Sans-serif;
     color: #ffffff;
@@ -40,9 +72,111 @@ font-family: "Berkshire Swash", Sans-serif;
     letter-spacing: 3px;
     font-size: 60px;
     padding-top: 20px;
+
 }
 
-.attachment-photo-footer{
+.attachment-photo-footer {
     background: none;
+
+}
+
+.site-content-location-info {
+
+    padding-top: 100px;
+    padding-left: 200px;
+
+}
+
+.site-content-location-info-hours {
+
+    background-image: url('../images/couple_restaurant.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100%;
+    background-size: auto;
+    width: 366px;
+    height: 384px;
+    float: right;
+    padding-bottom: 50px;
+    
+    margin-right: 300px;
+}
+
+.site-content-location-info-map {
+
+    width: 800px;
+    float: left;
+
+
+}
+
+.paragraph-title-call-hours2 {
+
+    background: none;
+    font-family: "Josefin Sans", Sans-serif;
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+
+.paragraph-title-call2 {
+    background: none;
+    font-family: "Berkshire Swash", Sans-serif;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 50px;
+
+}
+
+.footer-main-background{
+
+    background-image: url('../images/hero01-free-img.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100%;
+    background-size: auto;
+}
+
+
+.header-our-locations {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-shadow: 0px 0px 41px #000e14;
+    display: block;
+    background: none;
+    text-align: center;
+}
+
+
+.test-wea{
+    background: none;
+    font-family: "Berkshire Swash", Sans-serif;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 50px;
     
 }
+a{
+    text-decoration: none; 
+    color: #ffffff;
+    background-color: none;
+    background: none;
+}
+
+.footer-black-version{
+    background: none;
+    font-family:  "Josefin Sans", Sans-serif;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 50px;
+    color: #000e14;
+    font-size: 15px;
+
+}
+//width="800" height="350"
