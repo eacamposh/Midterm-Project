@@ -68,6 +68,8 @@ body {
 }
 .header .header-nav .navbar-nav {
   list-style: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 .header .header-nav .navbar-nav .nav-link {
   display: inline-block;
