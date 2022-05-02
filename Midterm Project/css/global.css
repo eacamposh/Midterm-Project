@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
 .header .header-nav .navbar-nav {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
@@ -22,16 +23,21 @@
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   -moz-column-gap: 5px;
        column-gap: 5px;
 }
 
-.menu-title {
+.menu-title2, .menu-title {
   width: 100%;
-  background-color: rgb(185, 232, 240);
+  background-color: rgba(245, 245, 245, 0);
   padding: 1rem;
   text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  color: black;
 }
 
 * {
@@ -63,10 +69,14 @@ body {
   background-color: rgb(202, 220, 228);
 }
 .header .header-nav {
+  width: 100%;
   padding-top: 20px;
 }
 .header .header-nav .navbar-nav {
+  width: 100%;
   list-style: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 .header .header-nav .navbar-nav .nav-link {
   display: inline-block;
@@ -81,15 +91,32 @@ body {
 
 .container .card .card-title {
   width: 100%;
-  background-color: rgb(185, 232, 240);
+  background-color: black;
+  color: white;
   padding: 1rem;
   text-align: center;
+}
+.container .card p, .container .card div {
+  background-color: rgba(245, 245, 245, 0);
 }
 .container .card .price {
   text-align: right;
   font-weight: 2rem;
   margin-left: auto;
   padding: 5px;
+  background-color: rgba(245, 245, 245, 0);
+}
+
+.menu-title2 {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  background-image: url(../images/pizza_restaurant1.jpg);
+}
+.container .accordion {
+  background: none;
 }
 
 .footer {
