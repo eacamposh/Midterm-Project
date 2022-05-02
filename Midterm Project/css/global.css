@@ -166,6 +166,15 @@ body {
   margin-bottom: 0;
 }
 
+#header {
+  width: 60%;
+}
+
+#header-nav {
+  display: grid;
+  padding-left: 65%;
+}
+
 .site-elementor-background {
   background-image: url(../images/bg-primary.jpg);
   background-color: rgba(0, 0, 0, 0.28);
