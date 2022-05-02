@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Cookie&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Cookie&family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Cookie&family=Courgette&family=Montserrat:wght@100&display=swap");
+
+::selection {
+  background-color: #ff770f;
+  color: #000000;
+}
 
 .site-title {
   font-family: cookie, cursive;
@@ -11,6 +17,7 @@
   display: block;
   line-height: 1.5;
   font-weight: 400;
+  background-color: whitesmoke;
 }
 
 .site-title a {
@@ -39,80 +46,65 @@
   background-size: cover;
   background-color: transparent;
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  padding-top: 100px;
 }
 
 .img-frill {
-  position: relative;
   background: none;
-/*   left: 940px;
-  top: -300px; */
-  align-items: top;
-  background-size: cover;
+  position: relative;
+  top: -300px;
+  left: 40%;
 }
 
 .img-fork {
-  position: relative;
   background: none;
-/*   top: 100px;
-  left: 350px; */
-  background-size: cover;
-  vertical-align: middle;
+  position: relative;
+  top: 80px;
+  left: 25%;
 }
 .img-knife {
-  position: relative;
   background: none;
-  vertical-align: middle;
-/*   top: 100px;
-  left: 1150px; */
-  background-size: cover;
+  position: relative;
+  top: 80px;
+  right: -55%;
 }
 
-/* .site-elementor-title {
-  position: relative;
-  color: #ffffff;
-  font-size: 45px;
-  letter-spacing: 0px;
-  text-shadow: 0px 0px 41px #000e14;
-  display: flex;
-  background: none;
-  background-size: cover;
-} */
-
+//Royal Crown Pizza
 .elementor-title-one {
   font-family: "Berkshire Swash", Sans-serif;
   position: relative;
   color: #ffffff;
-  font-size: 45px;
+  font-size: 90px;
   letter-spacing: 0px;
   text-shadow: 0px 0px 41px #000e14;
-  display: flex;
   background: none;
-  background-size: cover;
   text-align: center;
+  top: -270px;
 }
 
+//Fresh & Tasty !
 .elementor-title-two {
   background: none;
   font-family: "Courgette", Sans-serif;
   color: #ff770f;
+  font-size: 30px;
   position: relative;
   text-align: center;
-/*   right: 500px;
-  top: 130px; */
-  background-size: cover;
+  top: -250px;
 }
 
+//Try us today
 .elementor-title-three {
   font-family: sans-serif;
   background: none;
   font-size: 18px;
   position: relative;
   color: #ffffff;
-/*   right: 710px;
-  top: 220px; */
-  background-size: cover;
+  text-align: center;
+  top: -200px;
 }
 
+// We cater to bussines....
 .elementor-title-four {
   background: none;
   font-family: "Courgette", Sans-serif;
@@ -121,9 +113,242 @@
   font-weight: inherit;
   position: relative;
   text-align: center;
-/*   left: 720px;
-  top: -150px; */
   margin: 0;
   line-height: 1.4;
   background-size: cover;
+  top: -180px;
+}
+
+.container-home {
+  width: 90%;
+  max-width: 1600px;
+  margin: auto;
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: auto;
+  // background-color: #ffffff;
+}
+
+.container-section-one {
+  width: 1500px;
+  height: 700px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #ffffff;
+}
+
+.card {
+  border-radius: 10px;
+  min-height: 200px;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  background-color: #ffffff;
+}
+
+.card p,
+h1,
+h2,
+h6 {
+  background-color: #ffffff;
+}
+
+//Country's Most Loved
+.card h6 {
+  color: #000000;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-decoration: underline;
+  line-height: 1.6em;
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+//Welcome
+.card h1 {
+  font-family: "Berkshire Swash", Sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+  color: #c66300;
+  font-size: 4.375rem;
+  line-height: 1.2;
+}
+
+//Family owned...
+.card h2 {
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 600;
+  line-height: 1.2em;
+  color: #000000;
+  font-size: 2.25rem;
+  margin-bottom: 20px;
+}
+
+.card p {
+  color: #000000;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 600;
+  line-height: 1.8em;
+  text-align: left;
+  font-size: 16px;
+}
+//Hour
+.card h3 {
+  font-family: "Berkshire Swash", Sans-serif;
+  font-size: 30px;
+  text-transform: capitalize;
+  letter-spacing: 2.9px;
+  background: none;
+  color: #ffffff;
+  margin-bottom: 17px;
+  padding-top: 115%;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.card h5 {
+  color: #ffffff;
+  font-family: "Josefin Sans", Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  background: none;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  padding: auto;
+}
+
+.card .text {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.elementor-title-h2 h2 {
+  color: #b31d1d;
+  font-family: "Cookie", Sans-serif;
+  font-size: 65px;
+  font-weight: 500;
+  line-height: 1.6em;
+  text-align: center;
+  padding-top: 20px;
+  background: none;
+}
+
+.container-testimonials {
+  width: 100%;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  padding-left: 5%;
+  gap: 20px;
+}
+
+.text-testimonials p {
+  color: #000000;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 600;
+  line-height: 1.8em;
+  text-align: left;
+  font-size: 16px;
+  font-family: "Montserrat", Sans-serif;
+}
+
+.text-testimonials h2 {
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  color: var(--e-global-color-text);
+  background-color: whitesmoke;
+}
+
+.text-testimonials h6 {
+  color: #000000;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-decoration: underline;
+  line-height: 1.6em;
+  margin: 0;
+  font-size: 1.125rem;
+  background: none;
+}
+
+.elementor-title-toppings {
+  color: #e00c0c;
+  font-family: "Times New Roman", Sans-serif;
+  font-size: 4rem;
+  line-height: 2.8;
+  text-align: center;
+  clear: both;
+  background: none;
+}
+
+.container-toppings {
+  width: 1500px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-left: 20%;
+}
+
+.container-topping-text h1 {
+  color: #000000;
+  font-family: "Cookie", Sans-serif;
+  font-size: 48px;
+  text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+  line-height: 1.4;
+  background: none;
+  padding-left: 0%;
+}
+
+.list-toppings {
+  justify-content: flex-start;
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 17px;
+  color: rgb(117, 116, 116);
+}
+
+.elementor-text-extra-toppings {
+  color: #0fbddd;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 20%;
+}
+
+.site-elementor-background2 {
+  background-image: url(../images/hero01-free-img.jpg);
+  background-color: rgba(0, 0, 0, 0.28);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  padding-top: 100px;
+}
+
+.icon-phone{
+  background: none;
+  position: relative;
+  left: 50%;
+}
+
+.elementor-title-phone{
+  font-family: sans-serif;
+  background: none;
+  font-size: 28px;
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+}
+
+.elementor-title-call{
+  font-family: sans-serif;
+  background: none;
+  font-size: 28px;
+  position: relative;
+  color: #ffffff;
+  text-align: center;
 }
