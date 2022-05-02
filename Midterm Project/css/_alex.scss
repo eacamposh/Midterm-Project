@@ -110,6 +110,13 @@ body {
   @extend %menu-title-format
 }
 
+.container{
+  background-image: url(../images/pizza_restaurant1.jpg);
+  .accordion{
+    background: none;
+  }
+}
+
 .footer {
   justify-content: end;
   text-align: center;

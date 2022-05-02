@@ -99,6 +99,13 @@ body {
   background-color: rgba(245, 245, 245, 0);
 }
 
+.container {
+  background-image: url(../images/pizza_restaurant1.jpg);
+}
+.container .accordion {
+  background: none;
+}
+
 .footer {
   justify-content: end;
   text-align: center;
